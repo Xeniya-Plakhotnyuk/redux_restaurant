@@ -10,13 +10,13 @@ const Dishes =() => {
     return(
          <div>
         {dishesData
-        .filter( dish =>{
+        .filter( (dish) =>{
             if (selectedCategory === 'ALL') return true;
             return selectedCategory === dish.category;
         })
         
         .map(element =>
-            <Dish dish ={element} />)}
+            <Dish dish ={element}  />)}
        
         </div>
     )
