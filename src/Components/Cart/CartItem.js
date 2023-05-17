@@ -1,9 +1,8 @@
 
-const CartItem = ({CartItem}) =>{
+const CartItem = ({cartItem}) =>{
     return(
-
         <div>
-        CART ITEM
+          <p>{cartItem.quantity} portion(s)</p>  
         </div>
     )
 }
