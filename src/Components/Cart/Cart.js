@@ -15,6 +15,7 @@ const Cart =() =>{
         {cartItems.map(cartItem => <CartItem cartItem = {cartItem} />)}
         
         
+        
         </div>
         
     )

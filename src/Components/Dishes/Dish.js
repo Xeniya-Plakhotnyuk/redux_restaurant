@@ -16,8 +16,8 @@ const dispatch = useDispatch();
 <h2>
 {dish.name}
 </h2>
-<p>$ {dish.price}</p>
 <img src={dish.img} width='500px' alt="dish_photo"/>
+<h3>$ {dish.price}</h3>
 </div>
 <ChangeQuantity quantity={quantity} setQuantity = {setQuantity} />
 <button onClick={() => { dispatch(addItemToCart({dish, quantity}))}}>ADD TO CART</button>
